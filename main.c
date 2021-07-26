@@ -112,7 +112,7 @@ int main(int argc, char* argv[]) {
   free(dst_data);
   free(src_data);
 
-  printf("Original size / Result size: %lu/%lu\n", src_size, dst_size);
+  printf("Original size / Result size: %u/%u\n", src_size, dst_size);
 
   return 0;
 }
