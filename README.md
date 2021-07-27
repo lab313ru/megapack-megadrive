@@ -25,7 +25,7 @@ Original file: [dump_02d6ee_unp.zip](https://github.com/lab313ru/megapack-megadr
 | RNC ProPack (*Many Sega games*) | 13297  |
 | Imploder Cruncher (*Codemasters Sega games*) | 13584  |
 | PowerPacker Cruncher (*Amiga games*) | 13728  |
-| Beam Software Compression  | 13794  |
+| Beam Software Compression (*Radical Rex*)  | 13794  |
 | LZCaptsu Compression (*Tecmo Cup*) | 14774  |
 | LZKN1 Compression (*Konami Sega games*) | 15011  |
 | LZToshio Compression (*Crusader of Centy*)  | 15204  |
