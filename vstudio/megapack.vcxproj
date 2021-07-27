@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="compress.c" />
-    <ClCompile Include="decompress.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="..\compress.c" />
+    <ClCompile Include="..\decompress.c" />
+    <ClCompile Include="..\main.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cvector.h" />
-    <ClInclude Include="mega.h" />
+    <ClInclude Include="..\cvector.h" />
+    <ClInclude Include="..\mega.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

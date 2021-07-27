@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="compress.c">
+    <ClCompile Include="..\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="decompress.c">
+    <ClCompile Include="..\decompress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="..\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cvector.h">
+    <ClInclude Include="..\cvector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mega.h">
+    <ClInclude Include="..\mega.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

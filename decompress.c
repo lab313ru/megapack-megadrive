@@ -20,6 +20,19 @@ static uint16_t cmp_stream_read_bits(state_t* state, uint8_t num_bits) {
 }
 
 static uint32_t truncated_to_full(state_t* s, uint32_t range) {
+  if (range > 0x100) {
+    range--;
+    uint32_t low = (range & 0xFF) + 1;
+    uint32_t hi = (range >> 8) + 1;
+    uint32_t xhi = truncated_to_full(s, hi) - 1;
+
+    if (xhi >= 0) {
+      return cmp_stream_read_bits(s, 8) + xhi * 256 + low;
+    }
+
+    return truncated_to_full(s, low);
+  }
+
   uint32_t tmp = range;
   uint32_t bit_count = 0;
 

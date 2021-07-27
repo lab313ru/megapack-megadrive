@@ -77,6 +77,31 @@ static void cmp_stream_write_bstream(state_t* s, bstream_t* vec) {
 static int truncated_binary(int x, int n, bstream_t* result) {
   uint32_t length = 0;
 
+  if (n > 0x100) {
+    n--;
+    int low = (n & 0xFF) + 1;
+    int hi = (n >> 8) + 1;
+
+    if (x >= low) {
+      int xhi = ((x - low) >> 8) + 1;
+      int xlow = (x - low) & 0xFF;
+
+      length += truncated_binary(xhi, hi, result);
+
+      if (result) {
+        bstream_write_byte(result, xlow);
+      }
+
+      length += 8;
+    }
+    else {
+      length += truncated_binary(0, hi, result);
+      length += truncated_binary(x, low, result);
+    }
+
+    return length;
+  }
+
   int k = 0;
   int t = n;
 
@@ -149,6 +174,7 @@ static uint16_t compress_similar_tile(state_t* s, int i, int j, int length_only)
   int index = j;
   uint8_t vmap = 0xFF;
   uint8_t hmap = 0x00;
+  memset(s->similar_tiles[i].vbits, 0, 8);
 
   uint16_t pixels = 0;
 
