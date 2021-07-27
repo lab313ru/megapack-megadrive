@@ -28,6 +28,7 @@ Original file: [dump_02d6ee_unp.zip](https://github.com/lab313ru/megapack-megadr
 | Beam Software Compression (*Radical Rex*)  | 13794  |
 | LZCaptsu Compression (*Tecmo Cup*) | 14774  |
 | LZKN1 Compression (*Konami Sega games*) | 15011  |
+| UMK3 Compression  | 15131  |
 | LZToshio Compression (*Crusader of Centy*)  | 15204  |
 | The Lost Vikings Compression | 15207  |
 | LZKN3 Compression (*Konami Sega games*) | 15392  |
