@@ -2,7 +2,7 @@
 #include "mega.h"
 
 static void print_info() {
-  printf("Mega (Un)packer v1.0 [27/07/2021]\n");
+  printf("Mega (Un)packer v1.1 [27/07/2021]\n");
   printf("Original code for 68k: Codemasters (Jon Menzies)\n");
   printf("Thanks to Derek Leigh-Gilchrist for 'megaunp.s'\n");
   printf("Source code (Delphi) by: MAPAT\n");

@@ -77,30 +77,6 @@ static void cmp_stream_write_bstream(state_t* s, bstream_t* vec) {
 static int truncated_binary(int x, int n, bstream_t* result) {
   uint32_t length = 0;
 
-  if (n > 0x100) {
-    int low = n & 0xFF;
-    int hi = ((n - 1) >> 8) + 1;
-
-    if (x >= low) {
-      int xhi = ((x - low) >> 8) + 1;
-      int xlow = (x & 0xFF) - low;
-
-      length += truncated_binary(xhi, hi, result);
-
-      if (result) {
-        bstream_write_byte(result, xlow);
-      }
-
-      length += 8;
-    }
-    else {
-      length += truncated_binary(0, hi, result);
-      length += truncated_binary(x, low, result);
-    }
-
-    return length;
-  }
-
   int k = 0;
   int t = n;
 
