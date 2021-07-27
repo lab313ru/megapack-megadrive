@@ -34,6 +34,7 @@ Original file: [dump_02d6ee_unp.zip](https://github.com/lab313ru/megapack-megadr
 | Fact5LZ Compression (*Internation Superstar Soccer Deluxe*) | 15686  |
 | LZKN2 Compression (*Konami Sega games*) | 16204  |
 | I.T.L. Compression (*Bonanza Bros.*) | 16512  |
+| LZ4W (SGDK)  | 16926  |
 
 ## Screenshots
 ![](/img/image.png?raw=true "Console window")
