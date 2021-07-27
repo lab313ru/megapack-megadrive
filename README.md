@@ -16,23 +16,23 @@ Original file: [dump_02d6ee_unp.zip](https://github.com/lab313ru/megapack-megadr
 |---|---|
 | Original  | 18752  |
 |---|---|
-| MEGAPACK  | 10387  |
+| MEGAPACK (*Fantastic Dizzy*) | 10387  |
 | LZMA2  | 10867  |
 | GZIP  | 11159  |
-| LZH Compression (Thunder Force 3)  | 11386  |
-| Nemesis Compression (Many games) | 11652  |
+| LZH Compression (*Thunder Force 3*)  | 11386  |
+| Nemesis Compression (*Many Sega games*) | 11652  |
 | ApLib  | 12682  |
-| RNC ProPack (Many games) | 13297  |
-| Imploder Cruncher (Codemasters games) | 13584  |
-| PowerPacker Cruncher (Amiga games) | 13728  |
-| LZCaptsu Compression (Captain Tsubasa Sega) | 14774  |
-| LZKN1 Compression (Sega Konami games) | 15011  |
-| LZToshio Compression (Crusader of Centy)  | 15204  |
+| RNC ProPack (*Many Sega games*) | 13297  |
+| Imploder Cruncher (*Codemasters Sega games*) | 13584  |
+| PowerPacker Cruncher (*Amiga games*) | 13728  |
+| LZCaptsu Compression (*Tecmo Cup*) | 14774  |
+| LZKN1 Compression (*Konami Sega games*) | 15011  |
+| LZToshio Compression (*Crusader of Centy*)  | 15204  |
 | The Lost Vikings Compression | 15207  |
-| LZKN3 Compression (Sega Konami games) | 15392  |
-| Fact5LZ Compression (Internation Superstar Soccer Deluxe) | 15686  |
-| LZKN2 Compression (Sega Konami games) | 16204  |
-| I.T.L. Compression (Bonanza Bros) | 16512  |
+| LZKN3 Compression (*Konami Sega games*) | 15392  |
+| Fact5LZ Compression (*Internation Superstar Soccer Deluxe*) | 15686  |
+| LZKN2 Compression (*Konami Sega games*) | 16204  |
+| I.T.L. Compression (*Bonanza Bros.*) | 16512  |
 
 ## Screenshots
 ![](/img/image.png?raw=true "Console window")
