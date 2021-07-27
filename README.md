@@ -8,6 +8,32 @@ This algorithm was used in Fantastic Dizzy game for Sega Mega Drive to compress 
 - **Decompression**: `megapack <source.bin> <dest.bin> d [hex_offset]`
 - **Compression**: `megapack <source.bin> <dest.bin> c`
 
+## Comparison
+Original file: [dump_02d6ee_unp.zip](https://github.com/lab313ru/megapack-megadrive/files/6881795/dump_02d6ee_unp.zip)
+
+
+| Algo  | Size  |
+|---|---|
+| Original  | 18752  |
+|---|---|
+| MEGAPACK  | 10387  |
+| LZMA2  | 10867  |
+| GZIP  | 11159  |
+| LZH Compression (Thunder Force 3)  | 11386  |
+| Nemesis Compression  | 11652  |
+| ApLib  | 12682  |
+| RNC ProPack  | 13297  |
+| Imploder Cruncher | 13584  |
+| PowerPacker Cruncher  | 13728  |
+| LZCaptsu Compression  | 14774  |
+| LZKN1 Compression  | 15011  |
+| LZToshio Compression  | 15204  |
+| The Lost Vikings Compression | 15207  |
+| LZKN3 Compression  | 15392  |
+| Fact5LZ Compression  | 15686  |
+| LZKN2 Compression  | 16204  |
+| I.T.L. Compression  | 16512  |
+
 ## Screenshots
 ![](/img/image.png?raw=true "Console window")
 
