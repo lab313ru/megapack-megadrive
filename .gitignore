@@ -10,3 +10,6 @@
 .suo
 *.db
 *.txt
+*.db-shm
+*.db-wal
+*.opendb
