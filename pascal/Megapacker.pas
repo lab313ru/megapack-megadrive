@@ -200,7 +200,7 @@ end;
 
 procedure TCODEC.CompressedStreamWriteBits(Value: string);
 var
-  I: Byte;
+  I: Integer;
 begin
   for I := 1 to Length(Value) do
   begin
