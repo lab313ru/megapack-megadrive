@@ -16,10 +16,10 @@ typedef uint8_t tile4_t[TILE_4BIT_SIZE];
 typedef uint8_t tile8_t[TILE_8BIT_SIZE_W][TILE_8BIT_SIZE_H];
 
 typedef struct bstream_t {
-  uint8_t data[128]; // seems to be enough
+  uint8_t data[256]; // seems to be enough
   uint8_t bits;
-  uint8_t byte;
-  uint8_t total;
+  uint16_t byte;
+  uint16_t total;
 } bstream_t;
 
 typedef struct packed_tile_t {
